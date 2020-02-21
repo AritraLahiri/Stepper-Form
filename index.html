@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Stepper Form</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section>
+			<div class="container">
+				<h2>Linear Stepper</h2>
+				<div class="steps">
+					<span id="email">1</span>Email
+					<span id="pass">2</span>Password
+					<span id="validate">3</span>Validate
+					<form action="#">
+						<label for="input" id="label">Username</label>
+						<input type="text" id="input" placeholder="Amesh@gmail.com">
+						<button id="prev" onclick="previous()">Previous</button>
+						<button id="next" onclick="nexti()">Next</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<script src="script.js"></script>
+	</body>
+</html>
